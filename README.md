@@ -10,7 +10,7 @@ Bu Next.js uygulaması, TypeScript ve Tailwind CSS kullanılarak geliştirilmiş
 [![Framer Motion](https://img.shields.io/badge/Framer%20Motion-black?style=for-the-badge&logo=framer)](https://www.framer.com/motion/)
 
 ## Ekran Görüntüleri
-![Ana Sayfa]([https://i.hizliresim.com/cwfc5tw.gif))
+![Ana Sayfa](https://i.hizliresim.com/cwfc5tw.gif)
 
 ## Özellikler
 
