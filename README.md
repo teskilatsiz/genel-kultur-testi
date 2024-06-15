@@ -26,7 +26,7 @@ Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları tak
 
 1. Bu depoyu klonlayın:
     ```bash
-    git clone https://github.com/kullanici/genel-kultur-testi.git
+    git clone https://github.com/teskilatsiz/genel-kultur-testi.git
     cd genel-kultur-testi
     ```
 
