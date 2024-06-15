@@ -10,7 +10,7 @@ Bu Next.js uygulaması, TypeScript ve Tailwind CSS kullanılarak geliştirilmiş
 ## Özellikler
 
 - **20 Soruluk Test:** Farklı kategorilerde 20 genel kültür sorusu içerir.
-- **İpucu Sistemi:** Her soru için ChatGPT tarafından oluşturulan ipuçları sunar.
+- **İpucu Sistemi:** Her soru için özenlikle oluşturulan ipuçları sunar.
 - **Yanlış Cevap Hakkı:** Kullanıcıya 3 yanlış cevap hakkı tanır.
 - **Geri Sayım Sayacı:** Her soru için 10 saniyelik bir geri sayım sayacı bulunur.
 - **Skor Gösterimi:** Test sonunda doğru ve yanlış cevap sayısını gösterir.
@@ -20,7 +20,7 @@ Bu Next.js uygulaması, TypeScript ve Tailwind CSS kullanılarak geliştirilmiş
 
 ## Demo
 
-Uygulamanın canlı demosunu [buradan](https://genel-kultur-testi-uygulamasi.vercel.app/) görebilirsiniz. (Not: Uygulama henüz deploy edilmemiş olabilir, bu durumda GitHub deposundan klonlayıp çalıştırabilirsiniz.)
+Uygulamanın canlı demosunu [buradan](https://genel-kultur-testi-uygulamasi.vercel.app/) görebilirsiniz.
 
 ## Ekran Görüntüleri
 
