@@ -31,7 +31,7 @@
     "**/*.ts",
     "**/*.tsx",
     "app/api/ipucu/yol.ts",
-    "app/anasayfa.tsx",
+    "app/page.tsx",
     "app/bilesenler/*.tsx",
     "app/veri.ts",
     ".next/types/**/*.ts"

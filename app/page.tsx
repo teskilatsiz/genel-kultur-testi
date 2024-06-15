@@ -7,7 +7,7 @@ import Image from "next/image";
 import { FaLightbulb, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-export default function Anasayfa() {
+export default function Page() {
   const [sorular, setSorular] = useState<
     { soru: string; cevaplar: { dogru: string; yanlis: string }; ipucu: string }[]
   >([]);
@@ -113,7 +113,7 @@ export default function Anasayfa() {
             <div className="flex justify-center mb-8">
               <SoruKarti soru={sorular[aktifSoruIndex]?.soru || ""} />
             </div>
-            <div className="mt-8 flex flex-wrap justify-center gap-4">
+            <div className="mt-8 md:flex md:flex-wrap md:justify-center md:gap-4 flex-col items-center space-y-4 md:space-y-0">
               {sorular[aktifSoruIndex]?.cevaplar &&
                 Object.entries(sorular[aktifSoruIndex].cevaplar).map(
                   ([key, cevap], index) => (
@@ -160,18 +160,17 @@ export default function Anasayfa() {
         )}
       </div>
 
-      {/* Geliştirici bilgisi ve sosyal medya ikonları */}
       <footer className="mt-8 text-white text-center">
         <p>Teşkilatsız tarafından geliştirilmiştir.</p>
         <div className="flex justify-center mt-2 space-x-4">
           <a href="https://twitter.com/teskilatsiz" target="_blank" rel="noopener noreferrer">
-            <FaTwitter className="text-xl hover:text-white" />
+            <FaTwitter className="text-xl" />
           </a>
           <a href="https://linkedin.com/in/teskilatsiz" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="text-xl hover:text-white" />
+            <FaLinkedin className="text-xl" />
           </a>
           <a href="https://github.com/teskilatsiz" target="_blank" rel="noopener noreferrer">
-            <FaGithub className="text-xl hover:text-white" />
+            <FaGithub className="text-xl" />
           </a>
         </div>
       </footer>
