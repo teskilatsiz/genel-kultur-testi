@@ -8,9 +8,6 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Genel Kültür Testi',
   description: 'Next.js, TypeScript ve Tailwind CSS ile geliştirildi.',
-  icons: {
-    icon: '/favicon.png', // Favicon dosyasının yolu
-  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
