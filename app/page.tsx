@@ -113,7 +113,8 @@ export default function Page() {
             <div className="flex justify-center mb-8">
               <SoruKarti soru={sorular[aktifSoruIndex]?.soru || ""} />
             </div>
-            <div className="mt-8 md:flex md:flex-wrap md:justify-center md:gap-4 flex-col items-center space-y-4 md:space-y-0">
+            <div className="mt-8 flex flex-wrap md:flex-row justify-center gap-4"> 
+              
               {sorular[aktifSoruIndex]?.cevaplar &&
                 Object.entries(sorular[aktifSoruIndex].cevaplar).map(
                   ([key, cevap], index) => (
@@ -159,7 +160,7 @@ export default function Page() {
           </>
         )}
       </div>
-
+      
       <footer className="mt-8 text-white text-center">
         <p>Teşkilatsız tarafından geliştirilmiştir.</p>
         <div className="flex justify-center mt-2 space-x-4">

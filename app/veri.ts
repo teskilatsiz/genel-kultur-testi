@@ -1,5 +1,3 @@
-// app/veri.ts
-
 interface Soru {
   soru: string;
   cevaplar: {
